@@ -1,0 +1,19 @@
+GET http://localhost:8000/stocks
+
+###
+POST http://localhost:8000/stocks
+Content-Type: application/json
+
+{
+    "name": "Apple111",
+    "price": 100
+}
+
+###
+POST http://localhost:3000/api/stocks
+Content-Type: application/json
+
+{
+    "name": "a3",
+    "price": 3
+}
